@@ -1,0 +1,10 @@
+name: StackViewAnimation
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "10.0"
+targets:
+  StackViewAnimation:
+    type: application
+    platform: iOS
+    sources: [StackViewAnimation]
