@@ -10,18 +10,31 @@
 		BF_139635279328 /* StackViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_715235418889 /* StackViewAnimation.swift */; };
 		BF_296112130325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = VG_207932333965 /* LaunchScreen.storyboard */; };
 		BF_573333836157 = {isa = PBXBuildFile; fileRef = FR_777869261257 /* StackViewAnimation.app */; };
+		BF_740368530629 /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_150702124071 /* StackViewViewController.swift */; };
+		BF_815084152837 /* StackViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FR_664287216531 /* StackViewViewController.xib */; };
 		BF_905813159805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR_841446968028 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FR_150702124071 /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
 		FR_207932333965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FR_586066848050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR_664287216531 /* StackViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackViewViewController.xib; sourceTree = "<group>"; };
 		FR_715235418889 /* StackViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewAnimation.swift; sourceTree = "<group>"; };
 		FR_777869261257 /* StackViewAnimation.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = StackViewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_841446968028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		G_2678070247108 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FR_150702124071 /* StackViewViewController.swift */,
+				FR_664287216531 /* StackViewViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		G_6852563311625 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -36,6 +49,7 @@
 			children = (
 				G_8996372597155 /* App */,
 				G_6852563311625 /* Assets */,
+				G_2678070247108 /* Controller */,
 			);
 			path = StackViewAnimation;
 			sourceTree = "<group>";
@@ -115,6 +129,7 @@
 			files = (
 				BF_905813159805 /* Assets.xcassets in Resources */,
 				BF_296112130325 /* LaunchScreen.storyboard in Resources */,
+				BF_815084152837 /* StackViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_139635279328 /* StackViewAnimation.swift in Sources */,
+				BF_740368530629 /* StackViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
